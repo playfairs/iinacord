@@ -53,9 +53,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     }
     ipcServer?.onMessage = { [weak self] (msg: IPCMessage) in
       guard let s = self else { return }
+      let currentTitle = msg.title ?? "<nil>"
       print("[IINAcord][IPC] received message \(msg)")
+      print("[IINAcord][IPC] current IINA title = \(currentTitle)")
       if let state = PlaybackState(from: msg) {
         s.menuController?.isIINAConnected = true
+        print("[IINAcord][IPC] decoded playback state title = \(state.title)")
         s.discord?.update(with: state)
       }
     }
