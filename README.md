@@ -2,7 +2,10 @@
 
 Discord Rich Presence for [IINA](https://iina.io/).
 
----
+>[!NOTE]
+> It should be mentioned that while this note is here, the RPC only shows the app name, and Idle, see the image below.
+
+!()[./assets/example_1.png]
 
 ## What it currently does
 
@@ -25,7 +28,7 @@ Discord Rich Presence for [IINA](https://iina.io/).
   - `type: 3` (Watching)
 - Clears Discord Rich Presence with `activity = null` when IINA is not running.
 
-## Current implementation details
+## Implementation details (Both Current and Intended)
 
 - `Sources/IINAcord/App/AppDelegate.swift`
   - Starts the IPC server and Discord monitor.
