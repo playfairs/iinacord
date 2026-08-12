@@ -1,0 +1,7 @@
+{
+    "name": "IINAcord",
+    "version": "1.0.0",
+    "author": "IINAcord",
+    "identifier": "cc.playfairs.iinacord",
+    "description": "Discord Rich Presence for IINA."
+}
