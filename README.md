@@ -5,7 +5,7 @@ Discord Rich Presence for [IINA](https://iina.io/).
 >[!NOTE]
 > It should be mentioned that while this note is here, the RPC only shows the app name, and Idle, see the image below.
 
-!()[./assets/example_1.png]
+![](./assets/example_1.png)
 
 ## What it currently does
 
