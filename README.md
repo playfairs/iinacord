@@ -1,6 +1,6 @@
 # IINAcord
 
-Discord Rich Presence for IINA.
+Discord Rich Presence for (IINA)[https://iina.io/].
 
 ---
 
