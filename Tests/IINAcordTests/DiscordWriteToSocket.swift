@@ -8,7 +8,7 @@ import XCTest
 final class DiscordWriteToSocket: XCTestCase {
   private var clientId: String { Config.clientID }
   private let activityDetails = "Hello from IINA"
-  private let activityState = "Watching IINA"
+  private let activityState = "IINA"
   private let socketNames = (0..<10).map { "discord-ipc-\($0)" }
   private let candidateDirs = [
     ProcessInfo.processInfo.environment["XDG_RUNTIME_DIR"],

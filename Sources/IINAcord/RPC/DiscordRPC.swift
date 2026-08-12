@@ -69,7 +69,7 @@ final class DiscordRPC {
 
   func showPlaceholderActivityIfNeeded() {
     guard connected else { return }
-    currentActivity = DiscordActivity(details: "Watching IINA", state: "Idle", start: nil, end: nil)
+    currentActivity = DiscordActivity(details: "IINA", state: "Idle", start: nil, end: nil)
     _ = sendActivity(currentActivity!)
   }
 
