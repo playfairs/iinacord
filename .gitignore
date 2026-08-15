@@ -3,3 +3,5 @@
 build
 target
 .vscode
+/.swiftpm/xcode/package.xcworkspace
+/.swiftpm/xcode/xcuserdata/playfairs.xcuserdatad/xcschemes
