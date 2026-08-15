@@ -11,7 +11,6 @@ let package = Package(
     .executableTarget(
       name: "IINAcord",
       path: "Sources/IINAcord",
-      resources: [.process("Resources")]
     ),
     .testTarget(
       name: "IINAcordTests",
