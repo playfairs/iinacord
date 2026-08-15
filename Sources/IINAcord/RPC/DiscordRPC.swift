@@ -28,7 +28,7 @@ final class DiscordRPC {
   func startMonitoring(_ handler: @escaping (Bool) -> Void) {
     onLog?("starting Discord availability monitor")
     checkOnce(handler: handler)
-    timer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { [weak self] _ in
+    timer = Timer.scheduledTimer(withTimeInterval: 30, repeats: true) { [weak self] _ in
       self?.checkOnce(handler: handler)
     }
   }
