@@ -2,6 +2,11 @@
 
 Discord Rich Presence for [IINA](https://iina.io/).
 
+>[!IMPORTANT]
+> I am **NOT** going to continue working on IINAcord as I have moved focus to **[iina-discord-presence](https://github.com/playfairs/iina-discord-presence)** since plugin developement is much easier and more convenient.
+> The purpose of the project will not be different, and it will work the same way.
+---
+
 >[!NOTE]
 > It should be mentioned that while this note is here, the RPC only shows the app name, and Idle, see the image below.
 
